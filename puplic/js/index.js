@@ -4,7 +4,7 @@ const session = localStorage.getItem("session");
 
 checklogged();
 
-//LOGAR NO CISTEMA
+//LOGAR NO SISTEMA
 document.getElementById("login-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
